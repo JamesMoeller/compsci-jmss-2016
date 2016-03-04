@@ -1,0 +1,7 @@
+
+height = int(input("How high do you want the triangle to be?"))
+height = height
+
+for i in range(height):
+    spaces = height - i
+    print(" "*spaces, "x"*(i*2+1))
